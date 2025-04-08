@@ -7,7 +7,8 @@
 - 用戶註冊
 - 用戶登入
 - 用戶登出
-- 用戶檢視博客
+- 用戶檢視單一博客
+- 用戶檢視全部博客
 - 用戶新增博客
 - 用戶修改博客
 - 用戶刪除博客
@@ -17,7 +18,7 @@
 [MongoDB Installation Made SUPER Easy!](https://www.youtube.com/watch?v=6BuRmE63ZJQ)
 
 ## ER Diagram 結構
-<img width="378" alt="image" src="https://github.com/user-attachments/assets/6ab94cac-67fc-42f8-a4bc-bb5157863d18" />
+<img width="367" alt="image" src="https://github.com/user-attachments/assets/3a201aa1-e351-476b-99d8-258d6b5c6d90" />
 
 ## 資料夾結構
 ```bash
@@ -51,7 +52,6 @@ npm start
 ```
 
 2. 開啟 MongoDB Compass，點擊 add new connnection。
-<img width="169" alt="002" src="https://github.com/user-attachments/assets/4baf15b8-3b6f-437d-b180-277635f10ca3" />
 
 3. 在 localhost:27017 旁邊點擊 Create Database，開啟 2 個空白的 Collection。
 ```bash
@@ -60,7 +60,7 @@ Collection Name: blogs
 Collection Name: users
 ```
 
-<img width="157" alt="001" src="https://github.com/user-attachments/assets/461d979f-4cf1-4f73-bda8-925efaaeedc1" />
+<img width="230" alt="image" src="https://github.com/user-attachments/assets/7b1991a1-ce2c-4e61-80c8-590ba98dd6d0" />
 
 4. 用瀏覽器進入以下網址測試
 ```bash
