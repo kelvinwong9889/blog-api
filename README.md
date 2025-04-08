@@ -40,7 +40,7 @@ blog-api/
 │   ├── register.html
 │   ├── create-blog.html
 │   └── edit-blog.html
-├── app.js
+├── index.js
 └── package.json
 ```
 
