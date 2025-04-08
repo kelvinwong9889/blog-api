@@ -14,6 +14,21 @@
 - 用戶刪除博客
 ```
 
+## API 連接
+```bash
+# routes/auth.js
+POST    /api/auth/register
+POST    /api/auth/login
+GET     /api/auth/me
+
+# routes/blogs.js
+POST    /api/blogs/
+GET     /api/blogs/
+GET     /api/blogs/:id
+PUT     /api/blogs/:id
+DELETE  /api/blogs/:id
+```
+
 ## MongoDB Compass 安裝指南 (參考以下 youtube 影片)
 [MongoDB Installation Made SUPER Easy!](https://www.youtube.com/watch?v=6BuRmE63ZJQ)
 
